@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@100&display=swap");
+* {
+  font-family: "Rokkit", serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+h1 {
+  font-family: "Rokkit", serif;
+  text-align: center;
+  color: #fff;
+  color: white;
+}
+
+#number {
+  margin-right: 50px;
+}
+#footer{
+  position:fixed;
+  bottom:0;
+  min-width: 100vw;
+  background-color: rgba(0, 120, 120, 0.5);
+  display:flex;
+  justify-content: center;
+}
+
+#footer > span {
+  margin: 0.625rem;
+}
+#displayResult > div {
+  display: inline-block;
+  width: 40%;
+  margin-top: 20px;
+  padding-left: 10px;
+  /* border: 1px solid black; */
+}
+
+#displayResult {
+  margin-top: 20px;
+}
+#displayResult > div > span:hover {
+  font-size: larger;
+  font-weight: bolder;
+  border: 0.01px solid black;
+  border-radius: 50%;
+  padding: 0 5px;
+}
+#keep-margin{
+  margin-left:10px;
+}
