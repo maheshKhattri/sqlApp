@@ -47,7 +47,6 @@ app.get("/get", (req, res) => {
 });
 app.post("/post", (req, res) => {
   var title = req.body.title;
-
   var date = req.body.date;
   var reminder = req.body.rem;
 
